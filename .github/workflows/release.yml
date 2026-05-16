@@ -22,11 +22,11 @@ jobs:
           cat > /tmp/release-notes.md <<'EOF'
           Citation metadata release for Agent Authority Infrastructure.
 
-          This release adds the Zenodo DOI to the public framework citation metadata and keeps the repository aligned with the archived framework record.
+          This release adds the the Zenodo concept DOI to the public framework citation metadata and keeps the repository aligned with the archived framework record.
 
           Changes:
 
-          - Added DOI references to README and citation metadata
+          - Added Concept DOI references to README and citation metadata
           - Updated framework metadata version
           - Added automated release publishing for future tagged releases
 
@@ -34,7 +34,7 @@ jobs:
 
           This repository does not include NeoXFortress Gateway implementation internals, policy DSL schemas, receipt schemas, signing code, or ledger code.
 
-          DOI: https://doi.org/10.5281/zenodo.20237101
+          DOI: https://doi.org/10.5281/zenodo.20237100
           Canonical page: https://neoxfortress.com/agent-authority-infrastructure
           Manifesto: https://neoxfortress.com/manifesto
           Reference architecture: https://neoxfortress.com/reference-architecture

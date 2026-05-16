@@ -8,8 +8,8 @@ authors:
     given-names: Julio
     affiliation: NeoXFortress LLC
 date-released: 2026-05-16
-version: 1.0.2
-doi: "10.5281/zenodo.20237101"
+version: 1.0.3
+doi: "10.5281/zenodo.20237100"
 url: "https://github.com/NeoXFortress/agent-authority-infrastructure"
 license: "CC-BY-4.0"
 keywords:
@@ -35,5 +35,5 @@ preferred-citation:
   year: 2026
   publisher:
     name: NeoXFortress LLC
-  doi: "10.5281/zenodo.20237101"
+  doi: "10.5281/zenodo.20237100"
   url: "https://neoxfortress.com/manifesto"
