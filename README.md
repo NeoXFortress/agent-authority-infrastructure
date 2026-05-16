@@ -93,7 +93,7 @@ DOI: [10.5281/zenodo.20237100](https://doi.org/10.5281/zenodo.20237100)
 
 APA:
 
-> Berroa, J. (2026). *Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents* (Version 1.0.3). NeoXFortress LLC. https://doi.org/10.5281/zenodo.20237100
+> Berroa, J. (2026). *Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents* (Version 1.0.4). NeoXFortress LLC. https://doi.org/10.5281/zenodo.20237100
 
 BibTeX:
 
@@ -102,7 +102,7 @@ BibTeX:
   title = {Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents},
   author = {Berroa, Julio},
   year = {2026},
-  version = {1.0.3},
+  version = {1.0.4},
   publisher = {NeoXFortress LLC},
   doi = {10.5281/zenodo.20237100},
   url = {https://github.com/NeoXFortress/agent-authority-infrastructure}

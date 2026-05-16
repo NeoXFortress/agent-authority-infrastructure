@@ -2,6 +2,13 @@
 
 All notable framework changes will be documented in this file.
 
+## [1.0.4] - 2026-05-16
+
+Release-note polish.
+
+- Fixed automated release wording for the Zenodo concept DOI.
+- No framework content or implementation details changed.
+
 ## [1.0.3] - 2026-05-16
 
 Stable concept DOI release.
@@ -14,7 +21,7 @@ Stable concept DOI release.
 
 Citation metadata release.
 
-- Added the the Zenodo concept DOI to README and citation metadata.
+- Added the Zenodo concept DOI to README and citation metadata.
 - Added an automated GitHub release workflow for future tagged releases.
 - No framework content or implementation details changed.
 
