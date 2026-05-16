@@ -1,0 +1,40 @@
+{
+  "title": "Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents",
+  "description": "Agent Authority Infrastructure is a security and governance framework for AI agents that defines runtime authority, enforces allow, deny, and human-review decisions before execution, and preserves tamper-evident evidence after each action.",
+  "creators": [
+    {
+      "name": "Berroa, Julio",
+      "affiliation": "NeoXFortress LLC"
+    }
+  ],
+  "keywords": [
+    "AI security",
+    "AI agents",
+    "agent authorization",
+    "runtime authority",
+    "AI governance",
+    "federal AI",
+    "RMF",
+    "ATO",
+    "NIST AI RMF",
+    "tamper-evident evidence"
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://neoxfortress.com/manifesto",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://neoxfortress.com/reference-architecture",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

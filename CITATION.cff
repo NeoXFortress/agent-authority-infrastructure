@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "Agent Authority Infrastructure"
+message: "If you use this framework, please cite it."
+type: report
+abstract: "A security and governance framework for AI agents that defines runtime authority, enforces allow, deny, and human-review decisions, and produces tamper-evident evidence after each action."
+authors:
+  - family-names: Berroa
+    given-names: Julio
+    affiliation: NeoXFortress LLC
+date-released: 2026-05-16
+version: 1.0.0
+url: "https://github.com/NeoXFortress/agent-authority-infrastructure"
+license: "CC-BY-4.0"
+keywords:
+  - AI security
+  - AI agents
+  - agent authorization
+  - runtime authority
+  - AI governance
+  - federal AI
+  - evidence
+  - RMF
+  - ATO
+  - NIST AI RMF
+repository-code: "https://github.com/NeoXFortress/agent-authority-infrastructure"
+repository-artifact: "https://neoxfortress.com/manifesto"
+preferred-citation:
+  type: report
+  title: "Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents"
+  authors:
+    - family-names: Berroa
+      given-names: Julio
+      affiliation: NeoXFortress LLC
+  year: 2026
+  publisher:
+    name: NeoXFortress LLC
+  url: "https://neoxfortress.com/manifesto"

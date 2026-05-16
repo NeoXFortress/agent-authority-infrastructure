@@ -1,0 +1,90 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Authority Infrastructure Reference Architecture</title>
+  <desc id="desc">Five-layer architecture showing user mission, agent runtime, agent authority layer, tools and actions, and evidence audit plane.</desc>
+  <rect width="1200" height="720" rx="32" fill="#020617"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.52" stop-color="#08111D"/>
+      <stop offset="1" stop-color="#0F1C2E"/>
+    </linearGradient>
+    <style>
+      .title{font:700 34px Inter,Arial,sans-serif;fill:#F8FAFC}
+      .sub{font:500 15px Inter,Arial,sans-serif;fill:#94A3B8}
+      .label{font:700 12px ui-monospace,Menlo,monospace;letter-spacing:.15em;fill:#8BE2D3}
+      .box-title{font:700 20px Inter,Arial,sans-serif;fill:#F8FAFC}
+      .box-body{font:500 13px Inter,Arial,sans-serif;fill:#CBD5E1}
+      .small{font:700 11px ui-monospace,Menlo,monospace;letter-spacing:.11em;fill:#94A3B8}
+      .arrow{stroke:#8BE2D3;stroke-width:3;marker-end:url(#arrow)}
+      .muted-arrow{stroke:#64748B;stroke-width:2;marker-end:url(#arrow-muted)}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#8BE2D3"/>
+    </marker>
+    <marker id="arrow-muted" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="url(#bg)"/>
+  <g opacity="0.16">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200" stroke="#94A3B8"/>
+    <path d="M120 0V720M240 0V720M360 0V720M480 0V720M600 0V720M720 0V720M840 0V720M960 0V720M1080 0V720" stroke="#94A3B8"/>
+  </g>
+  <text x="70" y="74" class="title">Agent Authority Infrastructure</text>
+  <text x="70" y="103" class="sub">Runtime authority, approval, and tamper-evident evidence for AI agents</text>
+  <text x="70" y="142" class="label">AUTHORITY BEFORE ACTION / EVIDENCE AFTER ACTION</text>
+
+  <rect x="70" y="185" width="210" height="92" rx="20" fill="#0F172A" stroke="#334155"/>
+  <text x="94" y="222" class="box-title">User / Mission</text>
+  <text x="94" y="248" class="box-body">Task, objective,</text>
+  <text x="94" y="267" class="box-body">mission scope</text>
+
+  <rect x="342" y="185" width="210" height="92" rx="20" fill="#0F172A" stroke="#334155"/>
+  <text x="366" y="222" class="box-title">Agent Runtime</text>
+  <text x="366" y="248" class="box-body">Model, framework,</text>
+  <text x="366" y="267" class="box-body">tool-use intent</text>
+
+  <rect x="614" y="148" width="516" height="166" rx="26" fill="#052E2B" stroke="#1FA38F" stroke-width="2"/>
+  <text x="638" y="186" class="label">AGENT AUTHORITY LAYER</text>
+  <text x="638" y="216" class="box-title">Evaluate every intended action before execution</text>
+  <rect x="638" y="240" width="106" height="44" rx="12" fill="#0F172A" stroke="#1FA38F"/>
+  <text x="658" y="267" class="small">REGISTRY</text>
+  <rect x="758" y="240" width="106" height="44" rx="12" fill="#0F172A" stroke="#1FA38F"/>
+  <text x="774" y="267" class="small">POLICY</text>
+  <rect x="878" y="240" width="106" height="44" rx="12" fill="#0F172A" stroke="#1FA38F"/>
+  <text x="896" y="267" class="small">DECISION</text>
+  <rect x="998" y="240" width="106" height="44" rx="12" fill="#0F172A" stroke="#1FA38F"/>
+  <text x="1016" y="267" class="small">RECEIPT</text>
+
+  <path d="M280 231H336" class="arrow"/>
+  <path d="M552 231H606" class="arrow"/>
+
+  <rect x="342" y="420" width="250" height="100" rx="22" fill="#0F172A" stroke="#334155"/>
+  <text x="366" y="458" class="box-title">Tools / Actions</text>
+  <text x="366" y="484" class="box-body">APIs, files, databases,</text>
+  <text x="366" y="503" class="box-body">messages, operational systems</text>
+
+  <rect x="670" y="420" width="310" height="100" rx="22" fill="#0F172A" stroke="#334155"/>
+  <text x="694" y="458" class="box-title">Evidence &amp; Audit Plane</text>
+  <text x="694" y="484" class="box-body">Signed receipts, ledger,</text>
+  <text x="694" y="503" class="box-body">closeout evidence packs</text>
+
+  <path d="M872 314V382C872 402 852 420 825 420" class="arrow"/>
+  <path d="M614 314C540 338 467 366 467 414" class="arrow"/>
+  <path d="M592 470H662" class="arrow"/>
+
+  <rect x="70" y="420" width="190" height="100" rx="22" fill="#111827" stroke="#475569"/>
+  <text x="94" y="458" class="box-title">IdP Input</text>
+  <text x="94" y="484" class="box-body">Entra, Okta,</text>
+  <text x="94" y="503" class="box-body">PIV/CAC context</text>
+  <path d="M260 470H335" class="muted-arrow"/>
+
+  <rect x="70" y="575" width="300" height="74" rx="20" fill="#111827" stroke="#475569"/>
+  <text x="94" y="606" class="box-title">Revocation Path</text>
+  <text x="94" y="632" class="box-body">Policy update or authority withdrawal</text>
+  <path d="M370 612C525 612 724 610 811 292" class="muted-arrow"/>
+
+  <text x="670" y="575" class="label">PUBLIC FRAMEWORK</text>
+  <text x="670" y="604" class="sub">This diagram is a conceptual architecture, not a product schema.</text>
+  <text x="670" y="630" class="sub">Reuse welcome with attribution to NeoXFortress LLC.</text>
+</svg>

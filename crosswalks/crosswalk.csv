@@ -1,0 +1,11 @@
+framework,area,aai_concept,evidence_question
+OMB AI Guidance,Accountability,Signed action receipt,Can reviewers see which agent attempted which action?
+OMB AI Guidance,Governance,Mission authority policy,Is there a defined boundary for what the agent may do?
+OMB AI Guidance,Risk management,Deny or human-review decision,What happens when an action exceeds scope?
+NIST AI RMF,Govern,Mission authority and action boundaries,What policy governs the agent action?
+NIST AI RMF,Map,Tool and data boundary mapping,Which tools and data are in scope?
+NIST AI RMF,Measure,Signed action receipts,What action-level evidence was captured?
+NIST AI RMF,Manage,Decision records and revocation path,How are risky actions blocked or escalated?
+NIST SP 800-53,AC,Runtime authority decision,Was the requested action within authorized scope?
+NIST SP 800-53,AU,Tamper-evident evidence,Can the action record be reviewed later?
+NIST SP 800-53,CA,Closeout evidence pack,Can reviewers inspect pilot evidence?
