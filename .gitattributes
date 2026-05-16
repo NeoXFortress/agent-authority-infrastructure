@@ -1,0 +1,4 @@
+# This repository is primarily a public framework/specification, not a Python package.
+# Exclude local build tooling from GitHub Linguist language classification.
+scripts/* linguist-vendored
+*.py linguist-detectable=false

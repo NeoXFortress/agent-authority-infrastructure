@@ -89,7 +89,9 @@ The public framework explains the category. The product implementation remains p
 
 ## Citation
 
-DOI: [10.5281/zenodo.20237100](https://doi.org/10.5281/zenodo.20237100)
+Concept DOI: [10.5281/zenodo.20237100](https://doi.org/10.5281/zenodo.20237100)
+
+Use the concept DOI for general references to the Agent Authority Infrastructure framework. Zenodo also assigns version-specific DOIs for each archived GitHub release.
 
 APA:
 
