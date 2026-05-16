@@ -1,0 +1,50 @@
+name: Publish release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          cat > /tmp/release-notes.md <<'EOF'
+          Citation metadata release for Agent Authority Infrastructure.
+
+          This release adds the Zenodo DOI to the public framework citation metadata and keeps the repository aligned with the archived framework record.
+
+          Changes:
+
+          - Added DOI references to README and citation metadata
+          - Updated framework metadata version
+          - Added automated release publishing for future tagged releases
+
+          No framework content, public architecture, examples, policy context, or implementation details changed.
+
+          This repository does not include NeoXFortress Gateway implementation internals, policy DSL schemas, receipt schemas, signing code, or ledger code.
+
+          DOI: https://doi.org/10.5281/zenodo.20237101
+          Canonical page: https://neoxfortress.com/agent-authority-infrastructure
+          Manifesto: https://neoxfortress.com/manifesto
+          Reference architecture: https://neoxfortress.com/reference-architecture
+          EOF
+
+          gh release create "$TAG" \
+            --title "Agent Authority Infrastructure $TAG" \
+            --notes-file /tmp/release-notes.md \
+            --latest \
+          || gh release edit "$TAG" \
+            --title "Agent Authority Infrastructure $TAG" \
+            --notes-file /tmp/release-notes.md \
+            --latest

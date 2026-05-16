@@ -2,6 +2,14 @@
 
 All notable framework changes will be documented in this file.
 
+## [1.0.2] - 2026-05-16
+
+Citation metadata release.
+
+- Added the Zenodo DOI to README and citation metadata.
+- Added an automated GitHub release workflow for future tagged releases.
+- No framework content or implementation details changed.
+
 ## [1.0.1] - 2026-05-16
 
 Zenodo archival metadata release.
