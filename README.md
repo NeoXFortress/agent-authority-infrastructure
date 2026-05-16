@@ -91,7 +91,7 @@ DOI is pending Zenodo publication.
 
 APA placeholder:
 
-> Berroa, J. (2026). *Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents* (Version 1.0.0). NeoXFortress LLC.
+> Berroa, J. (2026). *Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents* (Version 1.0.1). NeoXFortress LLC.
 
 BibTeX placeholder:
 
@@ -100,7 +100,7 @@ BibTeX placeholder:
   title = {Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents},
   author = {Berroa, Julio},
   year = {2026},
-  version = {1.0.0},
+  version = {1.0.1},
   publisher = {NeoXFortress LLC},
   url = {https://github.com/NeoXFortress/agent-authority-infrastructure}
 }
