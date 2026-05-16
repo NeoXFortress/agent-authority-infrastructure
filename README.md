@@ -1,5 +1,7 @@
 # Agent Authority Infrastructure
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20237101.svg)](https://doi.org/10.5281/zenodo.20237101)
+
 **Authority before action. Proof after action.**
 
 Agent Authority Infrastructure (AAI) is a framework for governing AI-agent actions in high-trust environments. It defines what an AI agent is allowed to do before execution, enforces allow / deny / human-review decisions at runtime, and preserves tamper-evident evidence after each action.
@@ -87,13 +89,13 @@ The public framework explains the category. The product implementation remains p
 
 ## Citation
 
-DOI is pending Zenodo publication.
+DOI: [10.5281/zenodo.20237101](https://doi.org/10.5281/zenodo.20237101)
 
-APA placeholder:
+APA:
 
-> Berroa, J. (2026). *Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents* (Version 1.0.1). NeoXFortress LLC.
+> Berroa, J. (2026). *Agent Authority Infrastructure: A Framework for Runtime Authority, Approval, and Evidence in AI Agents* (Version 1.0.1). NeoXFortress LLC. https://doi.org/10.5281/zenodo.20237101
 
-BibTeX placeholder:
+BibTeX:
 
 ```bibtex
 @misc{berroa2026agentauthorityinfrastructure,
@@ -102,11 +104,10 @@ BibTeX placeholder:
   year = {2026},
   version = {1.0.1},
   publisher = {NeoXFortress LLC},
+  doi = {10.5281/zenodo.20237101},
   url = {https://github.com/NeoXFortress/agent-authority-infrastructure}
 }
 ```
-
-Update `CITATION.cff` and `CITATION.bib` after Zenodo assigns a DOI.
 
 ## Licensing
 

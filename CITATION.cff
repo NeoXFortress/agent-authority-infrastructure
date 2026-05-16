@@ -9,6 +9,7 @@ authors:
     affiliation: NeoXFortress LLC
 date-released: 2026-05-16
 version: 1.0.1
+doi: "10.5281/zenodo.20237101"
 url: "https://github.com/NeoXFortress/agent-authority-infrastructure"
 license: "CC-BY-4.0"
 keywords:
@@ -34,4 +35,5 @@ preferred-citation:
   year: 2026
   publisher:
     name: NeoXFortress LLC
+  doi: "10.5281/zenodo.20237101"
   url: "https://neoxfortress.com/manifesto"
